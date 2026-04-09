@@ -1,6 +1,6 @@
 //your JS code here. If required.
-let user1=document.querySelector("#player-1");
-let user2=document.querySelector("#player-2");
+let user1=document.querySelector("#player1");
+let user2=document.querySelector("#player2");
 let submit=document.querySelector("#submit");
  let message=document.querySelector(".message");
 submit.addEventListener("click",()=>{
@@ -219,12 +219,12 @@ if(e.target.id==="2")
 {
     if(one.innerText=="o"&&three.innerText=="o")
     {
-        message.innerText=`{${user2.value}} congratulations you won! `;
+        message.innerText=`${user2.value} congratulations you won! `;
         
     }
      else if(five.innerText=="o"&&eight.innerText=="o")
 {
-        message.innerText=`{${user2.value}} congratulations you won! `
+        message.innerText=`${user2.value} congratulations you won! `
 }
  
 else{
@@ -235,16 +235,16 @@ if(e.target.id==="3")
 {
     if(two.innerText=="o"&&one.innerText=="o")
     {
-        message.innerText=`{${user2.value}} congratulations you won! `;
+        message.innerText=`${user2.value} congratulations you won! `;
         
     }
      else if(six.innerText=="o"&&nine.innerText=="o")
 {
-        message.innerText=`{${user2.value}} congratulations you won! `
+        message.innerText=`${user2.value} congratulations you won! `
 }
  else if(five.innerText=="o"&&seven.innerText=="o")
 {
-        message.innerText=`{${user2.value}} congratulations you won! `
+        message.innerText=`${user2.value} congratulations you won! `
 }
 else{
 message.innerText=`${user1.value}, you're up`;
@@ -254,12 +254,12 @@ if(e.target.id==="4")
 {
     if(five.innerText=="o"&&six.innerText=="o")
     {
-        message.innerText=`{${user2.value}} congratulations you won! `;
+        message.innerText=`${user2.value} congratulations you won! `;
         
     }
      else if(one.innerText=="o"&&seven.innerText=="o")
 {
-        message.innerText=`{${user2.value}} congratulations you won! `
+        message.innerText=`${user2.value} congratulations you won! `
 }
  
 else{
@@ -270,20 +270,20 @@ if(e.target.id==="5")
 {
     if(four.innerText=="o"&&six.innerText=="o")
     {
-        message.innerText=`{${user2.value}} congratulations you won! `;
+        message.innerText=`${user2.value} congratulations you won! `;
         
     }
      else if(two.innerText=="o"&&eight.innerText=="o")
 {
-        message.innerText=`{${user2.value}} congratulations you won! `
+        message.innerText=`${user2.value} congratulations you won! `
 }
  else if(one.innerText=="o"&&nine.innerText=="o")
 {
-        message.innerText=`{${user2.value}} congratulations you won! `
+        message.innerText=`${user2.value} congratulations you won! `
 }
  else if(three.innerText=="o"&&seven.innerText=="o")
 {
-        message.innerText=`{${user2.value}} congratulations you won! `
+        message.innerText=`${user2.value} congratulations you won! `
 }
 
 else{
@@ -294,12 +294,12 @@ if(e.target.id==="6")
 {
     if(four.innerText=="o"&&five.innerText=="o")
     {
-        message.innerText=`{${user2.value}} congratulations you won! `;
+        message.innerText=`${user2.value} congratulations you won! `;
         
     }
      else if(three.innerText=="o"&&nine.innerText=="o")
 {
-        message.innerText=`{${user2.value}} congratulations you won! `
+        message.innerText=`${user2.value} congratulations you won! `
 }
  
 else{
@@ -310,16 +310,16 @@ if(e.target.id==="7")
 {
     if(one.innerText=="o"&&four.innerText=="o")
     {
-        message.innerText=`{${user2.value}} congratulations you won! `;
+        message.innerText=`${user2.value} congratulations you won! `;
         
     }
      else if(five.innerText=="o"&&three.innerText=="o")
 {
-        message.innerText=`{${user2.value}} congratulations you won! `
+        message.innerText=`${user2.value} congratulations you won! `
 }
      else if(eight.innerText=="o"&&nine.innerText=="o")
 {
-        message.innerText=`{${user2.value}} congratulations you won! `
+        message.innerText=`${user2.value} congratulations you won! `
 }
 else{
 message.innerText=`${user1.value}, you're up`;
@@ -328,12 +328,12 @@ if(e.target.id==="8")
 {
     if(seven.innerText=="o"&&nine.innerText=="o")
     {
-        message.innerText=`{${user2.value}} congratulations you won! `;
+        message.innerText=`${user2.value} congratulations you won! `;
         
     }
      else if(two.innerText=="o"&&five.innerText=="o")
 {
-        message.innerText=`{${user2.value}} congratulations you won! `
+        message.innerText=`${user2.value} congratulations you won! `
 }
 else{
 message.innerText=`${user1.value}, you're up`;
@@ -342,16 +342,16 @@ if(e.target.id==="9")
 {
     if(one.innerText=="o"&&five.innerText=="o")
     {
-        message.innerText=`{${user2.value}} congratulations you won! `;
+        message.innerText=`${user2.value} congratulations you won! `;
         
     }
      else if(eight.innerText=="o"&&seven.innerText=="o")
 {
-        message.innerText=`{${user2.value}} congratulations you won! `
+        message.innerText=`${user2.value} congratulations you won! `
 }
      else if(three.innerText=="o"&&six.innerText=="o")
 {
-        message.innerText=`{${user2.value}} congratulations you won! `
+        message.innerText=`${user2.value} congratulations you won! `
 }
 
 else{
