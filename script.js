@@ -33,16 +33,16 @@ if(e.target.id==="1")
 {
     if(two.innerText=="x"&&three.innerText=="x")
     {
-        message.innerText=`{${user1.value}} congratulations you won! `;
+        message.innerText=`${user1.value} congratulations you won! `;
         
     }
      else if(four.innerText=="x"&&seven.innerText=="x")
 {
-        message.innerText=`{${user1.value}} congratulations you won! `
+        message.innerText=`${user1.value} congratulations you won! `
 }
  else if(five.innerText=="x"&&nine.innerText=="x")
 {
-        message.innerText=`{${user1.value}} congratulations you won! `
+        message.innerText=`${user1.value} congratulations you won! `
 }
 else{
 message.innerText=`${user2.value}, you're up`;
@@ -52,12 +52,12 @@ if(e.target.id==="2")
 {
     if(one.innerText=="x"&&three.innerText=="x")
     {
-        message.innerText=`{${user1.value}} congratulations you won! `;
+        message.innerText=`${user1.value} congratulations you won! `;
         
     }
      else if(five.innerText=="x"&&eight.innerText=="x")
 {
-        message.innerText=`{${user1.value}} congratulations you won! `
+        message.innerText=`${user1.value} congratulations you won! `
 }
  
 else{
@@ -68,16 +68,16 @@ if(e.target.id==="3")
 {
     if(two.innerText=="x"&&one.innerText=="x")
     {
-        message.innerText=`{${user1.value}} congratulations you won! `;
+        message.innerText=`${user1.value} congratulations you won! `;
         
     }
      else if(six.innerText=="x"&&nine.innerText=="x")
 {
-        message.innerText=`{${user1.value}} congratulations you won! `
+        message.innerText=`${user1.value} congratulations you won! `
 }
  else if(five.innerText=="x"&&seven.innerText=="x")
 {
-        message.innerText=`{${user1.value}} congratulations you won! `
+        message.innerText=`${user1.value} congratulations you won! `
 }
 else{
 message.innerText=`${user2.value}, you're up`;
@@ -87,12 +87,12 @@ if(e.target.id==="4")
 {
     if(five.innerText=="x"&&six.innerText=="x")
     {
-        message.innerText=`{${user1.value}} congratulations you won! `;
+        message.innerText=`${user1.value} congratulations you won! `;
         
     }
      else if(one.innerText=="x"&&seven.innerText=="x")
 {
-        message.innerText=`{${user1.value}} congratulations you won! `
+        message.innerText=`${user1.value} congratulations you won! `
 }
  
 else{
@@ -103,20 +103,20 @@ if(e.target.id==="5")
 {
     if(four.innerText=="x"&&six.innerText=="x")
     {
-        message.innerText=`{${user1.value}} congratulations you won! `;
+        message.innerText=`${user1.value} congratulations you won! `;
         
     }
      else if(two.innerText=="x"&&eight.innerText=="x")
 {
-        message.innerText=`{${user1.value}} congratulations you won! `
+        message.innerText=`${user1.value} congratulations you won! `
 }
  else if(one.innerText=="x"&&nine.innerText=="x")
 {
-        message.innerText=`{${user1.value}} congratulations you won! `
+        message.innerText=`${user1.value} congratulations you won! `
 }
  else if(three.innerText=="x"&&seven.innerText=="x")
 {
-        message.innerText=`{${user1.value}} congratulations you won! `
+        message.innerText=`${user1.value} congratulations you won! `
 }
 
 else{
@@ -127,12 +127,12 @@ if(e.target.id==="6")
 {
     if(four.innerText=="x"&&five.innerText=="x")
     {
-        message.innerText=`{${user1.value}} congratulations you won! `;
+        message.innerText=`${user1.value} congratulations you won! `;
         
     }
      else if(three.innerText=="x"&&nine.innerText=="x")
 {
-        message.innerText=`{${user1.value}} congratulations you won! `
+        message.innerText=`${user1.value} congratulations you won! `
 }
  
 else{
@@ -143,16 +143,16 @@ if(e.target.id==="7")
 {
     if(one.innerText=="x"&&four.innerText=="x")
     {
-        message.innerText=`{${user1.value}} congratulations you won! `;
+        message.innerText=`${user1.value} congratulations you won! `;
         
     }
      else if(five.innerText=="x"&&three.innerText=="x")
 {
-        message.innerText=`{${user1.value}} congratulations you won! `
+        message.innerText=`${user1.value} congratulations you won! `
 }
      else if(eight.innerText=="x"&&nine.innerText=="x")
 {
-        message.innerText=`{${user1.value}} congratulations you won! `
+        message.innerText=`${user1.value} congratulations you won! `
 }
 else{
 message.innerText=`${user2.value}, you're up`;
@@ -161,12 +161,12 @@ if(e.target.id==="8")
 {
     if(seven.innerText=="x"&&nine.innerText=="x")
     {
-        message.innerText=`{${user1.value}} congratulations you won! `;
+        message.innerText=`${user1.value} congratulations you won! `;
         
     }
      else if(two.innerText=="x"&&five.innerText=="x")
 {
-        message.innerText=`{${user1.value}} congratulations you won! `
+        message.innerText=`${user1.value} congratulations you won! `
 }
 else{
 message.innerText=`${user2.value}, you're up`;
@@ -175,16 +175,16 @@ if(e.target.id==="9")
 {
     if(one.innerText=="x"&&five.innerText=="x")
     {
-        message.innerText=`{${user1.value}} congratulations you won! `;
+        message.innerText=`${user1.value} congratulations you won! `;
         
     }
      else if(eight.innerText=="x"&&seven.innerText=="x")
 {
-        message.innerText=`{${user1.value}} congratulations you won! `
+        message.innerText=`${user1.value} congratulations you won! `
 }
      else if(three.innerText=="x"&&six.innerText=="x")
 {
-        message.innerText=`{${user1.value}} congratulations you won! `
+        message.innerText=`${user1.value} congratulations you won! `
 }
 
 else{
@@ -200,16 +200,16 @@ message.innerText=`${user2.value}, you're up`;
 {
     if(two.innerText=="o"&&three.innerText=="o")
     {
-        message.innerText=`{${user2.value}} congratulations you won! `;
+        message.innerText=`${user2.value} congratulations you won! `;
         
     }
      else if(four.innerText=="o"&&seven.innerText=="o")
 {
-        message.innerText=`{${user2.value}} congratulations you won! `
+        message.innerText=`${user2.value} congratulations you won! `
 }
  else if(five.innerText=="o"&&nine.innerText=="o")
 {
-        message.innerText=`{${user2.value}} congratulations you won! `
+        message.innerText=`${user2.value} congratulations you won! `
 }
 else{
 message.innerText=`${user1.value}, you're up`;
